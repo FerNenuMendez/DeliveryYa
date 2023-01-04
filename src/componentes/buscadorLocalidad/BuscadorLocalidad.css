@@ -4,7 +4,7 @@
     justify-content: center;
     flex-direction: column;
     background: content-box center url(../../assets/comidas2.jpg);
-    height: 40rem;
+    height: 35rem;
     
     
 }
@@ -13,7 +13,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 18rem;
+    margin-bottom: 3rem;
 }
 .buscador__localidad__text__h2 {
     color: aliceblue;

@@ -16,6 +16,7 @@
 .footer__atajos__detalle {
     list-style: none;
     text-align: justify;
+    padding-bottom: 5px;
     
 }
 .footer__atajos__detalle2 {
@@ -25,7 +26,7 @@
     justify-content: center;
     list-style: none;
     text-align: justify;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 .footer__atajos__detalle__li {
     text-decoration: none;

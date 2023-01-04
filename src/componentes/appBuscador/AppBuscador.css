@@ -1,0 +1,17 @@
+.app__buscador { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.app__buscador__p {
+    color: aliceblue;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: xx-large;
+    background-color: 0px 0px 2px black;
+}
+.app__buscador__input {
+    height: 2rem;
+    width: 100%;
+    border-radius: 15px;
+}
