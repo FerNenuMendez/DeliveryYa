@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './componentes/nabvar/Navbar';
+import BuscadorLocalidad from './componentes/buscadorLocalidad/BuscadorLocalidad';
+import Sugerencias from './componentes/sugerencias/Sugerencias';
+import PlatosPreferidos from './componentes/platosPreferidos/PlatosPreferidos';
+import Footer from './componentes/footer/Footer';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Navbar/>
       </header>
+      <main className="App-main">
+        <BuscadorLocalidad/>
+        <Sugerencias/>
+        <PlatosPreferidos/>
+      </main>
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 }

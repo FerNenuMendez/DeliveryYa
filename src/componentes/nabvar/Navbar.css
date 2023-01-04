@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 4rem;
+    position: fixed;
+    background-color: white;
+    
+}
+.navbar__logo {
+    display: flex;
+    margin-left: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+.navbar__h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    color: red;
+    text-shadow: black -0.1px 0.1px 0.08em;
+    font-size: 3.5rem;
+    margin-right: 3px;
+    margin-bottom: 60px;
+}
+.navbar__p {
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    color: red;
+    text-shadow: black -0.1px 0.1px 0.08em;
+}
+.navbar__interaccion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6rem;
+}
+.navbar__img {
+    height: 4rem;
+    margin: 10px;
+}
+.navbar__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 1.2rem;
+    border-radius: 50%;
+    border: none;
+}
+.navbar__btn__icon {
+    margin-right: 5px;
+}

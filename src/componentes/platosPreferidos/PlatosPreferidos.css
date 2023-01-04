@@ -1,0 +1,24 @@
+.pp {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pp__text { 
+    text-align: justify;
+}
+.pp__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pp__sector{
+    display: flex;
+    text-align: justify;
+    margin: 1rem;
+}
+.pp__sector__img {
+    margin-right: 2rem;
+}

@@ -1,0 +1,28 @@
+.buscador__localidad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: content-box center url(../../assets/comidas2.jpg);
+    height: 40rem;
+    
+    
+}
+.buscador__localidad__text { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18rem;
+}
+.buscador__localidad__text__h2 {
+    color: aliceblue;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: xx-large;
+    background-color: 0px 0px 2px black;
+}
+.buscador__localidad__text__p {
+    color: aliceblue;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-weight: 500;
+}
