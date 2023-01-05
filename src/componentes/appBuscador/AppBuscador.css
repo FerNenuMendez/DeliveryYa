@@ -15,3 +15,12 @@
     width: 100%;
     border-radius: 15px;
 }
+.app__buscador__btn {
+    margin-top: 8px;
+    padding: 5px;
+    border-radius: 15px;
+    transition: transform .60s;
+}
+.app__buscador__btn:hover{
+    transform: scale(1.2)
+}

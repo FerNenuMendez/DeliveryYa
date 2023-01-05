@@ -2,7 +2,9 @@ import './Navbar.css'
 import img from '../../assets/logoD192.png'
 import { BsShop } from "react-icons/bs";
 
+
 const Navbar = () => {
+  
   return (
     <div className='navbar'>
       <div className='navbar__logo'>

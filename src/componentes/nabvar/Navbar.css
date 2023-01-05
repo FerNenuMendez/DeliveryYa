@@ -35,9 +35,13 @@
     justify-content: center;
     margin-right: 6rem;
 }
+
 .navbar__img {
     height: 4rem;
     margin: 10px;
+}
+.navbar__img:hover {
+    cursor: pointer;
 }
 .navbar__btn {
     display: flex;
@@ -46,6 +50,9 @@
     padding: 0.8rem 1.2rem;
     border-radius: 50%;
     border: none;
+}
+.navbar__btn:hover {
+    cursor: pointer;
 }
 .navbar__btn__icon {
     margin-right: 5px;
