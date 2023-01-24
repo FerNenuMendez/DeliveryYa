@@ -1,0 +1,23 @@
+.resultado__localidad {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 3rem;
+    border-radius: 15px;
+    padding: 2rem;
+    height: 12rem;
+    width: 120vh;
+    background-color: white;
+    border-style: inset;
+}
+.resultado__localidad__btn{
+    width: 5rem;
+    align-self: flex-end;
+    padding: 5px;
+    border-radius: 50%;
+    border-style: none;
+    box-shadow: 1px 2px black;
+}
+.resultado__localidad__btn {
+    cursor: pointer;
+}
