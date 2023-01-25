@@ -32,8 +32,8 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div>
-        <div className='footer__atajos'>
+      <div className='footer__atajos'>
+        <div className='footer__atajos__2'>
           <ul className='footer__atajos__detalle'>
             <li className='footer__atajos__detalle__li'>Te arrepentis de una compra?<a className='footer__atajos__detalle__li' href="https://empleos.pedidosya.com/"> Boton de arrepentimiento</a></li>
             <li className='footer__atajos__detalle__li'>Defensa de las y los Consumidores.<a className='footer__atajos__detalle__li' href="https://empleos.pedidosya.com/"> Ingresa Aca</a></li>

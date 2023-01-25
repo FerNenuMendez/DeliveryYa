@@ -9,7 +9,7 @@ const ResBuscadorDetail = ({producto}) => {
             <h2 className="resBuscadorDetail__h2">{local.nombre}</h2>
             <h3 className="resBuscadorDetail__h3">{local.tipo}</h3>
             <p className="resBuscadorDetail__p">{local.direccion}</p>
-            <p className="resBuscadorDetail__p">{local.localidad}</p>
+            <p className="resBuscadorDetail__p2">{local.localidad}</p>
         </div>
     )
   })

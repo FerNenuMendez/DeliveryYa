@@ -2,7 +2,7 @@ import './resBuscadorDetailIcon.css'
 import { MdDinnerDining, MdIcecream } from "react-icons/md";
 import { BiRestaurant } from "react-icons/bi";
 import { FaPizzaSlice } from "react-icons/fa";
-import { GiMeat, GiFishingBoat, GiHamburger, GiCupcake, GiSushis } from "react-icons/gi";
+import { GiMeat, GiFishingBoat, GiHamburger, GiCupcake, GiSushis, GiTeapot, GiTomato } from "react-icons/gi";
 
 const ResBuscadorDetailIcon = ({tipo}) => {
   
@@ -51,11 +51,19 @@ const ResBuscadorDetailIcon = ({tipo}) => {
             return(
                 <FaPizzaSlice/>
             )
+        } else if(tipo==='Casa de Té') {
+            return(
+                <GiTeapot/>
+            )
+        } else if(tipo==='Casa de Comidas Veganas') {
+            return(
+                <GiTomato/>
+            )
         }
     }
 
     return (
-        iconHandler
+        iconHandler()
     )
 }
 

@@ -31,7 +31,7 @@ const locales =[
         nombre:'El Noble',
         tipo:'Casa de Empanadas',
         direccion:'Gaona 24.451',
-        localidad:'Ramos Mejia',
+        localidad:'Moron',
         tel:'4621-5195',
 
     },
@@ -40,7 +40,7 @@ const locales =[
         nombre:'La Farola',
         tipo:'Restaurante',
         direccion:'Rivadavia 21.345',
-        localidad:'Ramos Mejia',
+        localidad:'Ituzaingo',
         tel:'4621-1089',
 
     },
@@ -166,7 +166,7 @@ const locales =[
         nombre:'Lo de Antonio',
         tipo:'Rotiseria',
         direccion:'Nicolas Ortiz 499',
-        localidad:'Ramos Mejia',
+        localidad:'Ituzaingo',
         tel:'7395-9688',
 
     },
@@ -202,7 +202,7 @@ const locales =[
         nombre:'Nono Sisi',
         tipo:'Fabrica de Pastas',
         direccion:'Arturo Puig 499',
-        localidad:'Ramos Mejia',
+        localidad:'Moron',
         tel:'7125-9128',
 
     },

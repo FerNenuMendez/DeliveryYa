@@ -7,11 +7,18 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    width: 100%;
     margin-top: 10px;
     padding-top: 10px;
     text-align: justify;
     border-bottom: 3px solid white;
     border-bottom-style: double ridge;
+}
+.footer__atajos__2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: justify;
 }
 .footer__atajos__detalle {
     list-style: none;
